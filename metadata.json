@@ -1,0 +1,5 @@
+{
+  "name": "Agri-Expert SSA",
+  "description": "A mobile-friendly agricultural advisor for Sub-Saharan Africa. Features crop disease diagnosis via Gemini Vision, climate-smart planting schedules for Kenya, and multi-lingual support (English/Swahili).",
+  "requestFramePermissions": ["camera"]
+}

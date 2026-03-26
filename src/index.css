@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Libre Baskerville", serif;
+  --color-shamba-green: #2D5A27;
+  --color-shamba-earth: #8B5E3C;
+  --color-shamba-light: #F1F8E9;
+}
+
+@layer base {
+  body {
+    @apply bg-[#F1F8E9] text-[#1B2E1A] font-sans;
+  }
+}
+
+.markdown-body h1 { @apply text-2xl font-bold mb-4 font-serif text-[#2D5A27]; }
+.markdown-body h2 { @apply text-xl font-bold mb-3 mt-6 font-serif text-[#2D5A27]; }
+.markdown-body h3 { @apply text-lg font-bold mb-2 mt-4 font-serif text-[#8B5E3C]; }
+.markdown-body p { @apply mb-4 leading-relaxed; }
+.markdown-body ul { @apply list-disc pl-5 mb-4; }
+.markdown-body li { @apply mb-1; }
+.markdown-body strong { @apply font-semibold text-[#2D5A27]; }
